@@ -21,23 +21,7 @@ module.exports = {
         config.output.publicPath = './_nuxt/'
       }
     }
-    // postcss: {
-    // 	// 添加插件名称作为键，参数作为值
-    // 	// 使用npm或yarn安装它们
-    // 	plugins: {
-    // 		// 通过传递 false 来禁用插件
-    // 		'postcss-url': false,
-    // 		'postcss-nested': {},
-    // 		'postcss-responsive-type': {},
-    // 		'postcss-hexrgba': {}
-    // 	},
-    // 	preset: {
-    // 		// 更改postcss-preset-env 设置
-    // 		autoprefixer: {
-    // 			grid: true
-    // 		}
-    // 	}
-    // }
+   
   },
 
   css: [
@@ -107,8 +91,8 @@ module.exports = {
     // directly in the browser
     base: '/',
     mode: 'history'
-    // middleware: ['i18n', 'redirect'],
-    // extendRoutes(routes, resolve) {
+    // middleware: [''], 中间件
+    // extendRoutes(routes, resolve) { //错误页面
     //   routes.push({
     //     name: 'custom',
     //     path: '*',
@@ -121,9 +105,6 @@ module.exports = {
 	 * Global Sass variables
 	 */
   styleResources: {
-    // scss: [ './assets/scss/variables.scss' ]
-    less: [
-      'styles/baseColor.less'
-    ]
+    less: []
   }
 }
