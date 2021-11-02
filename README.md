@@ -4,6 +4,6 @@
 初始化 
 npm inistall
 启动 
-npm run dev
+npm run start
 打包
 npm run build
